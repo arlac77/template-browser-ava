@@ -1,7 +1,7 @@
 {
   "scripts": {
     "test": "npm run test:browser-ava",
-    "test:ava": "browser-ava {{browser-ava.options}} {{browser-ava.tests}}"
+    "test:browser-ava": "browser-ava {{browser-ava.options}} {{browser-ava.tests}}"
   },
   "devDependencies": {
     "browser-ava": "^1.0.0"
