@@ -9,7 +9,7 @@
   "template": {
     "properties": {
       "browser-ava": {
-        "options": "--timeout 2m",
+        "options": "--no-keep-open",
         "tests": "tests/*-browser.mjs"
       }
     },
