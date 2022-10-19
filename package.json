@@ -1,0 +1,22 @@
+{
+  "scripts": {
+    "test": "npm run test:browser-ava",
+    "test:ava": "browser-ava {{browser-ava.options}} {{browser-ava.tests}}"
+  },
+  "devDependencies": {
+    "browser-ava": "^1.0.0"
+  },
+  "template": {
+    "properties": {
+      "browser-ava": {
+        "options": "--timeout 2m",
+        "tests": "tests/*-browser.mjs"
+      }
+    },
+    "inheritFrom": [
+      "arlac77/template-javascript"
+    ],
+    "usedBy": [
+    ]
+  }
+}
