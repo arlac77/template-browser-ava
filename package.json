@@ -17,6 +17,7 @@
       "arlac77/template-javascript"
     ],
     "usedBy": [
+      "arlac77/content-entry-transform",
       "arlac77/iterable-string-interceptor",
       "arlac77/key-value-transformer",
       "arlac77/matching-iterator",
