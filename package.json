@@ -4,13 +4,13 @@
     "test:browser-ava": "browser-ava {{browser-ava.options}} {{browser-ava.tests}}"
   },
   "devDependencies": {
-    "browser-ava": "^1.0.0"
+    "browser-ava": "^1.0.2"
   },
   "template": {
     "properties": {
       "browser-ava": {
         "options": "--no-keep-open",
-        "tests": "tests/*-browser.mjs"
+        "tests": "tests/*-ava.mjs tests/*-ava-browser.mjs"
       }
     },
     "inheritFrom": [
