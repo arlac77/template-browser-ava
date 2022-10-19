@@ -4,7 +4,7 @@
     "test:browser-ava": "browser-ava {{browser-ava.options}} {{browser-ava.tests}}"
   },
   "devDependencies": {
-    "browser-ava": "^1.0.0"
+    "browser-ava": "^1.0.1"
   },
   "template": {
     "properties": {
