@@ -21,7 +21,8 @@
       "arlac77/iterable-string-interceptor",
       "arlac77/key-value-transformer",
       "arlac77/matching-iterator",
-      "arlac77/reader-line-iterator"
+      "arlac77/reader-line-iterator",
+      "arlac77/repository-provider"
     ]
   }
 }
