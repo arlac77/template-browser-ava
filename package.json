@@ -9,7 +9,7 @@
   "template": {
     "properties": {
       "browser-ava": {
-        "options": "--no-keep-open",
+        "options": "--headless --no-keep-open",
         "tests": "tests/*-ava.mjs tests/*-ava-browser.mjs"
       }
     },
