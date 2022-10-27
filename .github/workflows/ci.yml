@@ -1,0 +1,21 @@
+jobs:
+  test-browser:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        browser:
+          - chromium
+          - firefox
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3.5.1
+        with:
+          node-version: 18.12.0
+          cache: npm
+      - run: npm ci
+      - run: npm run test:browser-ava --if-present
+        env:
+          BROWSER: ${{ matrix.browser }}
+  release:
+    needs:
+      - test-browser
