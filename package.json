@@ -34,7 +34,8 @@
       "arlac77/repository-provider",
       "arlac77/statetransition-mixin",
       "arlac77/uti",
-      "k0nsti/browser-stream-tar"
+      "k0nsti/browser-stream-tar",
+      "k0nsti/browser-stream-util"
     ]
   }
 }
