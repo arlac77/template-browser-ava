@@ -36,7 +36,8 @@
       "arlac77/statetransition-mixin",
       "arlac77/uti",
       "k0nsti/browser-stream-tar",
-      "k0nsti/browser-stream-util"
+      "k0nsti/browser-stream-util",
+      "konsumation/konsum-db"
     ]
   }
 }
