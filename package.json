@@ -31,6 +31,7 @@
       "arlac77/model-attributes",
       "arlac77/multi-path-matcher",
       "arlac77/one-time-execution-method",
+      "arlac77/pacc",
       "arlac77/pratt-parser",
       "arlac77/reader-line-iterator",
       "arlac77/repository-provider",
