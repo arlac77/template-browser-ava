@@ -4,7 +4,6 @@ jobs:
     strategy:
       matrix:
         browser:
-          - --delete-- chromium
           - chrome
           - firefox
     steps:
