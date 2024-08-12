@@ -21,6 +21,7 @@ jobs:
       - name: install
         run: npm ci
       - name: playwright install
+        name: install playwright
         run: npx playwright install
       - run: npm run test:browser-ava --if-present
         env:
