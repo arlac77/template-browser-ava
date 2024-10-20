@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "test": "npm run test:browser-ava",
+    "test": "node --run test:browser-ava",
     "test:browser-ava": "--overwrite-- browser-ava {{browser-ava.options}} {{browser-ava.tests}}"
   },
   "devDependencies": {
