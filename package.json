@@ -4,7 +4,7 @@
     "test:browser-ava": "--overwrite-- browser-ava {{browser-ava.options}} {{browser-ava.tests}}"
   },
   "devDependencies": {
-    "browser-ava": "^2.3.25"
+    "browser-ava": "^2.3.26"
   },
   "template": {
     "properties": {
