@@ -4,7 +4,7 @@
     "test:browser-ava": "--overwrite-- browser-ava {{browser-ava.options}} {{browser-ava.tests}}"
   },
   "devDependencies": {
-    "browser-ava": "^2.3.24"
+    "browser-ava": "^2.3.25"
   },
   "template": {
     "properties": {
@@ -43,5 +43,12 @@
       "konsumation/fetch-client",
       "konsumation/model"
     ]
+  },
+  "dependencies": {
+    "ava": "^6.3.0",
+    "content-entry": "^13.0.4",
+    "fetch-rate-limit-util": "^4.4.1",
+    "repository-provider": "^35.2.28",
+    "repository-provider-test-support": "^3.1.9"
   }
 }
